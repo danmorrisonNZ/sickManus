@@ -56,11 +56,26 @@ button{
   top: -200px;
   left: 45%;
   max-width: 200px;
+}
 
+#name{
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #494949;
+  display: block;
+  padding: 10px;
+  outline: none;
+  border: 2px solid grey;
+  border-radius: 3px;
 }
 
 @media (max-width: 600px) {
   #sick-manu{
     left:25%;
+  }
+  #name{
+    width: 75%;
   }
 }
