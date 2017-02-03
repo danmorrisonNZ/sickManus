@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Do a sick manu</title>
+  <link rel='manifest' href='manifest.json'>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
   <script src="scripts/jquery-3.1.1.min.js"></script>
@@ -23,6 +24,18 @@
   </div>
   <img src="images/chea_hooey.png" id="sick-manu"></img>
   <div id="ocean"></div>
+  <script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('scripts/sw.js', { scope: 'scripts/' })
+          .then(function(registration) {
+                console.log('Service Worker Registered');
+          });
+
+        navigator.serviceWorker.ready.then(function(registration) {
+           console.log('Service Worker Ready');
+        });
+      }
+  </script>
 </body>
 
 </html>
