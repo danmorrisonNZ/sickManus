@@ -4,6 +4,8 @@ var manu = function(){
     for (i = 0; i < 700; i++ ){
       downwardManu(i)
     }
+    var name = $("#name").val()
+    $("#manu-alert").text("That was a sick manu " + name + "!")
   })
 
   function downwardManu(i){

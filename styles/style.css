@@ -57,6 +57,9 @@ button{
   left: 45%;
   max-width: 200px;
 }
+#manu-alert{
+  text-align: center;
+}
 
 #name{
   width: 25%;
