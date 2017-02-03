@@ -2,6 +2,7 @@ body{
   height:auto;
   margin:0;
   font-family: 'Bungee Shade', cursive;
+  width:100%;
 }
 
 h1{
@@ -53,7 +54,13 @@ button{
 #sick-manu{
   position: fixed;
   top: -200px;
-  left: 40%;
+  left: 45%;
   max-width: 200px;
 
+}
+
+@media (max-width: 600px) {
+  #sick-manu{
+    left:25%;
+  }
 }
