@@ -1,5 +1,8 @@
 var manu = function(){
+  var audio = new Audio('HOO_.mp4');
+  
   $("#massive-manu").on("click", function(){
+    audio.play();
     $("#sick-manu").css("top", "-200px")
     for (i = 0; i < 700; i++ ){
       downwardManu(i)
