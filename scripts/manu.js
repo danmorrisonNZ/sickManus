@@ -10,7 +10,7 @@ var manu = function(){
       downwardManu(i)
     }
     var name = $("#name").val()
-    $("#manu-alert").text("That was a sick manu " + name + "!")
+    $("#manu-alert").text("That was meeeeeaaannn " + name + "!")
   })
 
   function downwardManu(i){
