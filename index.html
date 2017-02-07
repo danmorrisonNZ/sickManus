@@ -26,7 +26,7 @@
   <div id="ocean"></div>
   <script>
     if('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('scripts/sw.js', { scope: 'scripts/' })
+        navigator.serviceWorker.register('sw.js', { scope: '/' })
           .then(function(registration) {
                 console.log('Service Worker Registered');
           });
