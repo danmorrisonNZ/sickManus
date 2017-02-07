@@ -7,7 +7,7 @@ self.addEventListener('install', function(e) {
       '/styles/style.css',
       '/scripts/manu.js',
       '/scripts/jquery-3.1.1.min.js',
-      '/images/',
+      '/images/chea_hooey.png',
       '/HOO_.mp4',
       "images/touch"
       ]);
