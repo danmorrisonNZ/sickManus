@@ -3,6 +3,7 @@ self.addEventListener('install', function(e) {
     caches.open('sickmanu').then(function(cache) {
       return cache.addAll([
       '/',
+      "sw.js",
       '/styles/style.css',
       '/scripts/manu.js',
       '/scripts/jquery-3.1.1.min.js',
